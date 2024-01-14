@@ -274,6 +274,37 @@ img{
     fill: #f4f4fd;
 }
 
+.studio-section-fifth{
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+.studio-section-fifth .customer-list{
+    display: flex;
+    gap: 24px;
+}
+
+.studio-section-fifth .customer-item{
+    width: calc((100% - 120px) / 6);
+    height: 88px;
+}
+
+.studio-section-fifth .customer-link{
+    width: 100%;
+    height: 100%;
+    border: 1px solid #8e8f99;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color:  #8e8f99;
+}
+
+.studio-section-fifth .customer-link:hover,
+.studio-section-fifth .customer-link:focus{
+    border-color: #404bbf;
+}
+
 /* SECTION PORTFOLIO */
 
 .portfolio-menu-nav{
