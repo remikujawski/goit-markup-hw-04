@@ -301,7 +301,8 @@ img{
     background-color: #404bbf;
 }
 
-.studio-section-fourth .social-icon-svg{
+.studio-section-fourth .social-icon-svg,
+.footer .social-icon-svg{
     fill: #f4f4fd;
 }
 
