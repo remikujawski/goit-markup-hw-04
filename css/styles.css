@@ -103,11 +103,15 @@ img{
     color: var(--CLOUD);
     padding: 100px 0;
 }
+.footer .container{
+    display: flex;
+    align-items: baseline;
+}
 .footer-desc{
     max-width: 264px;
 }
 
-.footer-social .footer-social-desc{
+.footer-social p.footer-social-desc{
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -116,19 +120,17 @@ img{
     margin-bottom: 16px;
 }
 
-.footer .social-icons{
+.footer .social-list{
     gap: 16px;
 }
 
-.footer .social-icons .social-icon{
+.footer .social-list .social-icon{
     width: 40px;
     height: 40px;
 }
 
-.footer .container{
-    display: flex;
-    align-items: baseline;
-    gap: 120px;
+.footer .company-info{
+    margin-right: 120px;
 }
 
 /* SECTIONS DEFAULT */
@@ -141,8 +143,9 @@ img{
     letter-spacing: 0.02em;
     text-transform: capitalize;
     text-align: center;
+    margin-bottom: 72px;
 }
-.section-heading{margin-bottom: 72px;}
+
 .heading{
     color: var(--NAVY-BLUE);
     font-size: 20px;
@@ -165,7 +168,9 @@ img{
     cursor: pointer;
 }
 
-.card-list{
+.card-list,
+.social-list,
+.customer-list{
     gap: 24px;
 }
 
@@ -174,6 +179,7 @@ img{
 .studio-section-first{
     color: white;
     background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url("../images/people-office.png");
+    url("../images/people-office.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -243,7 +249,9 @@ img{
 
 .studio-section-socond .list,
 .studio-section-third .list,
-.studio-section-fourth .list{
+.studio-section-fourth .list,
+.studio-section-fifth .list,
+.footer .list {
     display: flex;
     padding: 0;
     justify-content: center;
@@ -268,19 +276,13 @@ img{
     text-align: center;
 }
 
-.studio-section-fourth .social-icons{
-    display: flex;
-    justify-content: center;
-    gap: 24px;
-}
-
 .studio-section-fourth .social-icon{
     width: 40px;
     height: 40px;
 }
 
 .studio-section-fourth .social-link,
-.footer .social-icons .social-link{
+.footer .social-list .social-link{
     width: 100%;
     height: 100%;
     background-color: #4d5ae5;
@@ -304,11 +306,6 @@ img{
 .studio-section-fifth{
     padding-top: 120px;
     padding-bottom: 120px;
-}
-
-.studio-section-fifth .customer-list{
-    display: flex;
-    gap: 24px;
 }
 
 .studio-section-fifth .customer-item{
