@@ -116,6 +116,21 @@ img{
     margin-bottom: 16px;
 }
 
+.footer .social-icons{
+    gap: 16px;
+}
+
+.footer .social-icons .social-icon{
+    width: 40px;
+    height: 40px;
+}
+
+.footer .container{
+    display: flex;
+    align-items: baseline;
+    gap: 120px;
+}
+
 /* SECTIONS DEFAULT */
 .section-heading,
 .portfolio-heading{
