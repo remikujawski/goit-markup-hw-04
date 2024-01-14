@@ -6,6 +6,7 @@
     --CLOUD: #F4F4FD;
     --CORNFLOWER: #E7E9FC;
     --OCEAN: #404BBF;
+    --WHITE: #FFFFFF;
     --ROBOTO: 'Roboto';
     --RALEWAY: 'Raleway';
 }
@@ -111,12 +112,12 @@ img{
     max-width: 264px;
 }
 
-.footer-social p.footer-social-desc{
+.footer-social .footer-social-desc{
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #ffffff;
+    color: var(--WHITE);
     margin-bottom: 16px;
 }
 
@@ -131,6 +132,11 @@ img{
 
 .footer .company-info{
     margin-right: 120px;
+}
+
+.footer .social-link:hover,
+.footer .social-link:focus{
+    background-color: #31d0aa;;
 }
 
 /* SECTIONS DEFAULT */
@@ -292,8 +298,6 @@ img{
     justify-content: center;
 }
 
-.studio-section-fourth .social-link:hover,
-.studio-section-fourth .social-link:focus,
 .studio-section-fourth .social-link:hover,
 .studio-section-fourth .social-link:focus{
     background-color: #404bbf;
