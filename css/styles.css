@@ -199,7 +199,6 @@ img{
     background-position: center;
     padding: 188px 0;
     max-width: 1440px;
-    text-align: center;
     margin: 0 auto;
 }
 .studio-section-first .button{
@@ -357,6 +356,14 @@ img{
     padding: 0;
 }
 
+.portfolio-list .link{
+    display: block;
+}
+.portfolio-list .link:hover,
+.portfolio-list .link:focus{
+    box-shadow:  0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+}
+
 .portfolio-section .item-button{
     font-weight: 500;
     font-size: inherit;
@@ -374,7 +381,7 @@ img{
     color: white;
     background-color: var(--OCEAN);
     border: 1px solid transparent;
-
+    box-shadow:  0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 .portfolio-section .sub-heading{
     font-weight: 500;
