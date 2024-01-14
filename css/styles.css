@@ -291,6 +291,8 @@ img{
 }
 
 .studio-section-fourth .social-link:hover,
+.studio-section-fourth .social-link:focus,
+.studio-section-fourth .social-link:hover,
 .studio-section-fourth .social-link:focus{
     background-color: #404bbf;
 }
