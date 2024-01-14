@@ -192,14 +192,14 @@ img{
     
 }
 .studio-section-first{
-    color: white;
-    background: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people-office.png);
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url("../images/people-office.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     padding: 188px 0;
     max-width: 1440px;
     margin: 0 auto;
+    color: white;
 }
 .studio-section-first .button{
     display: block;
