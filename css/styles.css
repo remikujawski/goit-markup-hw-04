@@ -134,9 +134,9 @@ img{
     margin-right: 120px;
 }
 
-.footer .social-link:hover,
-.footer .social-link:focus{
-    background-color: #31d0aa;;
+.footer a.social-link:hover,
+.footer a.social-link:focus{
+    background-color: #31d0aa;
 }
 
 /* SECTIONS DEFAULT */
@@ -296,8 +296,8 @@ img{
     justify-content: center;
 }
 
-.studio-section-fourth .social-link:hover,
-.studio-section-fourth .social-link:focus{
+.studio-section-fourth a.social-link:hover,
+.studio-section-fourth a.social-link:focus{
     background-color: #404bbf;
 }
 
