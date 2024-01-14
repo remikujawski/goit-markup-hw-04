@@ -279,7 +279,8 @@ img{
     height: 40px;
 }
 
-.studio-section-fourth .social-link{
+.studio-section-fourth .social-link,
+.footer .social-icons .social-link{
     width: 100%;
     height: 100%;
     background-color: #4d5ae5;
