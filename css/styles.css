@@ -303,6 +303,11 @@ img{
 .studio-section-fifth .customer-link:hover,
 .studio-section-fifth .customer-link:focus{
     border-color: #404bbf;
+    color: #404bbf;
+}
+
+.studio-section-fifth .customer-icon-svg{
+    fill: currentColor;
 }
 
 /* SECTION PORTFOLIO */
