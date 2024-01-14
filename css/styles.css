@@ -150,8 +150,13 @@ img{
     letter-spacing: 0.02em;
     text-transform: capitalize;
     text-align: center;
+    margin: 0;
     margin-bottom: 72px;
 }
+
+/* .studio-section-fifth .section-heading{    
+    margin-bottom: 72px;
+} */
 
 .heading{
     color: var(--NAVY-BLUE);
